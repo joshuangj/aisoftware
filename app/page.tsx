@@ -46,6 +46,7 @@ export default function Home() {
           <nav aria-label="주요 메뉴">
             <a href="#programs">프로그램</a>
             <a href="#story">스토리</a>
+            <a href="/character">AI 캐릭터</a>
             <a href="#contact">문의</a>
           </nav>
           <a className="nav-cta" href="#programs">Explore <span>↗</span></a>
