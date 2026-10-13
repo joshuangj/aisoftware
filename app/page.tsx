@@ -159,9 +159,9 @@ export default function Home() {
           <div><a className="brand footer-brand" href="#top">FORM<span>IQ</span><i /></a><p>Useful software for better work.</p></div>
           <div className="business-info">
             <p>사업자등록번호 464-12-03368</p>
-            <p>{process.env.NEXT_PUBLIC_BUSINESS_NAME || "상호 입력 필요"} · 대표 {process.env.NEXT_PUBLIC_REPRESENTATIVE || "대표자명 입력 필요"}</p>
-            <p>{process.env.NEXT_PUBLIC_BUSINESS_ADDRESS || "사업장 주소 입력 필요"}</p>
-            <p>통신판매업 신고번호 {process.env.NEXT_PUBLIC_ECOMMERCE_REGISTRATION || "입력 필요"}</p>
+            <p>상호 포믹(formiq) · 대표 진승민</p>
+            <p>경기도 남양주시 송산로339번길 13, 201호(별내동)</p>
+            <p>문의 {contactEmail} · {contactPhone}</p>
           </div>
           <div className="footer-links">
             <a href="/terms">이용약관</a>
